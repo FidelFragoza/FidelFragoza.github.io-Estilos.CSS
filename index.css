@@ -52,6 +52,22 @@ p {
     text-wrap: pretty;
 }
 
+.titulo-cardiovascular {
+    text-shadow: 2px 2px 2px red;
+}
+
+.titulo-muscular {
+    text-shadow: 2px 2px 2px sienna;
+}
+
+.titulo-peso {
+    text-shadow: 2px 2px 2px wheat;
+}
+
+.titulo-salud {
+    text-shadow: 2px 2px 2px skyblue;
+}
+
 /* Estilos para las imágenes */
 #img_cardiovascular,
 #img_musculoso,
