@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#cabecera {
+    /* Posición */
+    padding: 3vh;
+    text-align: center;
+    
+    /* Texto */
+    color: white;
+    text-shadow: 2px 2px 2px royalblue;
+    
+    /* Fondo */
+    background-image: url(assets/Deportes.jpg);
+    /* background-size: cover; */
+    background-size: 100%;
+    background-position: top;
+
+    
+    
+}
+
+.columna {
+    width: 48%; /* Ancho de cada columna */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contenido {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-wrap: pretty;
+}
+
+/* Estilos para las imágenes */
+#img_cardiovascular,
+#img_musculoso,
+#img_peso,
+#img_salud {
+    width: 50%;
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 3%;
+    display: block; /* Para que el margin: 0 auto; funcione */
+    border-radius: 15%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+    /* Posición absoluta abajo */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
